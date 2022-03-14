@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminCars</class>
+ <widget class="QDialog" name="adminCars">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Меню администратора</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>240</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(53, 98, 46);
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+border-color:rgb(41, 40, 40) ;</string>
+   </property>
+   <property name="text">
+    <string>Добавить ТС</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="moreButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>320</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(53, 98, 46);
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+border-color:rgb(41, 40, 40) ;</string>
+   </property>
+   <property name="text">
+    <string>Подробнее</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>10</y>
+     <width>91</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(53, 98, 46);
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+border-color:rgb(41, 40, 40) ;</string>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>280</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(53, 98, 46);
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+border-color:rgb(41, 40, 40) ;</string>
+   </property>
+   <property name="text">
+    <string>Удалить ТС</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
